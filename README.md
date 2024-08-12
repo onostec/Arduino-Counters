@@ -1,1 +1,1 @@
-## Arduino-Counters
+# Simple Counter Library based on PLC Timers
