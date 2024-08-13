@@ -2,19 +2,19 @@
 
 ## Counter Options
 
-CTU = Up Counter
-CTD = Down Counter
-CTY = Cyclic Counter
+.CTU = Up Counter
+.CTD = Down Counter
+.CTY = Cyclic Counter
 
 Counter Description
 Up Counter – CTU
-The CTU counter requires CU (Enable) to be True to increase CV (Counter Value) by one. The DN (Done Bit) becomes True when CV (Counter Value) = PV (Preset Value). When DN is True, CV will stop increasing. If RES (RESET) is True, CV and DN are set to zero which will allow the counter to start counting again.
+The CTU counter requires CU (Enable) to be True to increase CV (Counter Value) by one. The DN (Done Bit) becomes True when CV (Counter Value) = PV (Preset Value). When DN is True, CV will stop increasing. If RES (RESET) is True, CV and DN are set to zero, allowing the counter to start counting again.
 
 Down Counter – CTD
-The CTD counter requires CD (Enable) to be True to decrease CV (Counter Value) from PV (Preset Value) by one. DN (Done Bit) becomes True when CV (Counter Value) = 0. When DN is True, CV will stop decreasing. If RES (RESET) is True, CV is set to PV and DN is set to zero which allow the counter to start counting again.
+The CTD counter requires CD (Enable) to be True to decrease CV (Counter Value) from PV (Preset Value) by one. DN (Done Bit) becomes True when CV (Counter Value) = 0. When DN is True, CV will stop decreasing. If RES (RESET) is True, CV is set to PV and DN is set to zero, allowing the counter to start counting again.
 
 Up-Down Counter – CTU & CTD
-The Up-Down Counter requires CU (Enable) to be True to increase CV (Counter Value) by one and CD (Enable) to be True to decrease CV (Counter Value) by one on the same counter object. The DN (Done Bit) becomes True when CV (Counter Value) = PV (Preset Value) or when CV (Counter Value) = 0. When DN is True, CV will stop increasing or decreasing. If RES (RESET) is True, CV and DN are set to zero which will allow the counter to start counting again.
+The Up-Down Counter requires CU (Enable) to be True to increase CV (Counter Value) by one and CD (Enable) to be True to decrease CV (Counter Value) by one on the same counter object. The DN (Done Bit) becomes True when CV (Counter Value) = PV (Preset Value) or when CV (Counter Value) = 0. When DN is True, CV will stop increasing or decreasing. If RES (RESET) is True, CV and DN are set to zero, allowing the counter to start counting again.
 
 Cyclic Counter – CTY
 The CTY counter requires CU (Enable) to be True to increase CV (Counter Value) by one. The DN (Done Bit) becomes True when CV (Counter Value) = PV (Preset Value). When CV (Counter Value) > PV (Preset Value) CV will become zero and continue to count, while DN will change to False. If RES (RESET) is True, CV and DN are set to zero.
