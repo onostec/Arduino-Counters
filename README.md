@@ -1,8 +1,11 @@
 # Simple Counter Library based on PLC Timers
 
 ## Counter Options
+
 CTU = Up Counter
+
 CTD = Down Counter
+
 CTY = Cyclic Counter
 
 Counter Description
