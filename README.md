@@ -3,9 +3,7 @@
 ## Counter Options
 
 CTU = Up Counter
-
 CTD = Down Counter
-
 CTY = Cyclic Counter
 
 Counter Description
