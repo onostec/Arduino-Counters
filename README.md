@@ -35,8 +35,8 @@ The functions within the Class can then be called and used in the Loop function.
 The parameters can be used outside the function by using the class object. Do not write to the read parameters.
 
 	C1.CU = true; //Enable CTU or CTY C1 counter
-	C1.CD = true; //Reset CTD, CTU or CTY C1 counter
-	C1.RES= true; //Enable CTU C1 counter
+	C1.CD = true; //Enable CTD C1 counter
+	C1.RES= true; //Reset CTD, CTU or CTY C1 counter
 	C1.PV = 5; //Set C1 counter Preset
 	Bool result_DN =  C1.DN; //Read C1 counter Done Status
 	Unsigned long result_CV = C1.CV; //Read C1 counter value
